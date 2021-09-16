@@ -1,0 +1,125 @@
+header {
+    max-width: 1160px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 2;
+
+    .logo_image {
+        max-width: 114.91px;
+        width: 100%;
+        height: 33.99px;
+    }
+}
+
+span {
+    font-size: 17px;
+    line-height: 22px;
+    color: #212832;
+}
+
+.menu {
+    max-width: 1160.58px;
+    width: 100%;
+    height: 40px;
+}
+
+.nav_item_one {
+    max-width: 100px;
+    width: 100%;
+    height: 22px;
+    font-size: 17px;
+    line-height: 22px;
+    color: #212832;
+    padding-left: 222.17px;
+    padding-top: 56px;
+    text-decoration: none;
+}
+
+.nav_item_two {
+    max-width: 51px;
+    width: 100%;
+    height: 22px;
+    font-size: 17px;
+    line-height: 22px;
+    color: #212832;
+    padding-left: 55px;
+    text-decoration: none;
+}
+.nav_item_three {
+    max-width: 53px;
+    width: 100%;
+    height: 22px;
+    font-size: 17px;
+    line-height: 22px;
+    color: #212832;
+    padding-left: 64px;
+    text-decoration: none;
+}
+.nav_item_four {
+    max-width: 74px;
+    width: 100%;
+    height: 22px;
+    font-size: 17px;
+    line-height: 22px;
+    color: #212832;
+    padding-left: 62px;
+    text-decoration: none;
+}
+.nav_item_five {
+    max-width: 44px;
+    width: 100%;
+    height: 22px;
+    font-size: 17px;
+    line-height: 22px;
+    color: #212832;
+    padding-left: 86px;
+    text-decoration: none;
+}
+
+button {
+    max-width: 102px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #212832;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: #212832;
+    background: transparent;
+}
+.lang {
+    border: none;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: #212832;
+    background: transparent;
+    padding-left: 42px;
+}
+
+.decore {
+    width: 766.31px;
+    height: 872.58px;
+    position: absolute;
+    left: 736px;
+    top: -149px;
+}
+
+.ellipse {
+    max-width: 478.94px;
+    width: 100%;
+    height: 496.86px;
+    background: #d5aee4;
+    opacity: 0.3;
+    filter: blur(150px);
+    position: absolute;
+    left: -420px;
+    top: -59.84px;
+}
