@@ -1,13 +1,15 @@
 header {
     max-width: 1160px;
     width: 100%;
+    height: 40px;
     display: flex;
     align-items: center;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 50%;
     transform: translate(-50%, 0);
     z-index: 2;
+    padding-top: 47px;
 
     .logo_image {
         max-width: 114.91px;
@@ -23,9 +25,10 @@ span {
 }
 
 .menu {
-    max-width: 1160.58px;
+    max-width: 1160px;
     width: 100%;
     height: 40px;
+    padding-top: 10px;
 }
 
 .nav_item_one {
@@ -35,8 +38,7 @@ span {
     font-size: 17px;
     line-height: 22px;
     color: #212832;
-    padding-left: 222.17px;
-    padding-top: 56px;
+    padding-left: 222px;
     text-decoration: none;
 }
 

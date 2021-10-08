@@ -1,0 +1,73 @@
+.destinations {
+    max-width: 1040px;
+    width: 100%;
+    margin: 123px auto;
+}
+
+.destinations_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.destinations_item {
+    flex: 0 0 315px;
+    height: 457px;
+    display: flex;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    background-size: cover;
+    overflow: hidden;
+
+    &:hover {
+        filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02))
+            drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852))
+            drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01))
+            drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185))
+            drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+    }
+}
+
+.destinations_content {
+    width: 100%;
+    background-color: white;
+    opacity: 0;
+
+    .destinations_item:hover & {
+        opacity: 1;
+        transition: 1s;
+    }
+}
+
+.destinations_name {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #5e6282;
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 26px 20px 20px;
+}
+
+.dest_time {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 124.5%;
+    color: #5e6282;
+}
+
+// .london {
+//     margin-left: 35px;
+//     margin-right: 60px;
+// }
+
+.nav_dest {
+    margin-right: 15px;
+}
+
+.price {
+    // margin-left: 130px;
+}

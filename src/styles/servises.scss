@@ -1,0 +1,74 @@
+.all {
+    margin: 0 auto;
+}
+
+.servis {
+    margin-top: 97px;
+    margin-left: 154px;
+}
+
+.servis_heading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #5e6282;
+}
+
+.servis_title {
+    font-family: Volkhov;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #14183e;
+    margin-bottom: 110px;
+}
+
+.logo_servis {
+    position: absolute;
+    width: 153px;
+    height: 166px;
+    left: 1229px;
+    top: 966px;
+    margin-left: 254px;
+}
+
+.servis_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1090px;
+    margin: 0 auto 0;
+}
+
+.servis_category {
+    max-width: 190px;
+    text-align: center;
+}
+
+.name_category {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #1e1d4c;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.description_category {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #5e6282;
+    margin-top: 15px;
+}

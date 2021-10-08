@@ -1,0 +1,69 @@
+.conteiner_general {
+    height: 492px;
+}
+.main_header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5e6282;
+    margin-top: 186px;
+    margin-left: 189px;
+}
+
+.list_title {
+    width: 511px;
+    height: 130px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #14183e;
+    margin-top: 15px;
+    margin-left: 185px;
+}
+
+.list {
+    margin-left: 186px;
+    display: flex;
+    max-width: 395px;
+    width: 100%;
+}
+
+.list_header {
+    margin-left: 21px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 124.5%;
+    color: #5e6282;
+}
+
+.list_description {
+    margin-left: 21px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 124.5%;
+    color: #5e6282;
+    margin-top: 5px;
+}
+
+.list_one {
+    margin-top: 31px;
+}
+
+.list_two {
+    margin-top: 48px;
+}
+
+.list_three {
+    margin-top: 48px;
+}
+
+.image_greece {
+    position: absolute;
+    left: 815px;
+    top: 2436px;
+    margin-top: -150px;
+}
