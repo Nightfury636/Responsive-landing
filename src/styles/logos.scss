@@ -8,17 +8,26 @@
     margin-top: 96px;
 }
 
-.axon {
-    margin-right: 77px;
-}
+.logo_pics {
+    filter: grayscale(1);
+    height: 86px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-.expedia {
-    width: 100%;
-    margin-top: 138px;
-    margin-left: 50px;
-    margin-right: 47px;
-}
+    &:hover {
+        filter: grayscale(0);
+        transition: 0.3s;
+        background: #ffffff;
+        box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+            0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01),
+            0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+        border-radius: 10px;
+    }
 
-.qantas {
-    margin-right: 99px;
+    img {
+        object-fit: contain;
+        align-items: center;
+    }
 }

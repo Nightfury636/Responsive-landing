@@ -5,6 +5,11 @@
     margin-top: 200px;
 }
 
+.testimonials_content {
+    position: relative;
+    padding-bottom: 77px;
+}
+
 .testimonials_header {
     font-family: Poppins;
     font-style: normal;
@@ -30,6 +35,8 @@
 }
 
 .testimonials_comments {
+    position: relative;
+    z-index: 2;
 }
 
 .background_comment {
@@ -38,8 +45,21 @@
         0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01),
         0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
     border-radius: 10px;
+    padding: 28px 68px 34px 34px;
 }
-
+.background_comment_chris {
+    position: absolute;
+    bottom: 0;
+    transform: translate(44px, 0);
+    border: 2px solid #f7f7f7;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02))
+        drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852))
+        drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01))
+        drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185))
+        drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+    border-radius: 10px;
+    padding: 22px 34px;
+}
 .comment_mike {
     font-family: Poppins;
     font-style: normal;
@@ -47,7 +67,6 @@
     font-size: 16px;
     line-height: 32px;
     color: #5e6282;
-    margin-left: 34px;
 }
 
 .name_comment {
@@ -57,8 +76,7 @@
     font-size: 18px;
     line-height: 27px;
     color: #5e6282;
-    margin-top: 34px;
-    margin-left: 34px;
+    padding-top: 34px;
 }
 
 .location_comment {
@@ -68,6 +86,5 @@
     font-size: 14px;
     line-height: 21px;
     color: #5e6282;
-    margin-top: 5px;
-    margin-left: 34px;
+    padding-top: 5px;
 }

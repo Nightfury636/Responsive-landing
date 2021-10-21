@@ -1,14 +1,19 @@
 .subscribe_section {
-    width: 1356px;
+    width: 100%;
+    max-width: 1170px;
     height: 407px;
-    background-image: url("../img/images/background_image.svg");
+    background-color: #dfd7f9;
     background-repeat: no-repeat;
-    margin-left: 48px;
-    margin-top: 111px;
+    border-radius: 129px 0 0 0;
+    margin: 0 auto;
+    position: relative;
+    padding: 79px 150px 79px 150px;
 }
 
 .telegram_logo {
-    margin-left: 1200px;
+    position: absolute;
+    top: -20px;
+    right: -20px;
 }
 .subscribe_text {
     width: 859px;
@@ -20,8 +25,7 @@
     line-height: 54px;
     text-align: center;
     color: #5e6282;
-    margin-left: 243px;
-    padding-top: 22px;
+    margin-bottom: 74px;
 }
 
 .background_email {
@@ -29,8 +33,6 @@
     height: 68px;
     background: #ffffff;
     border-radius: 10px;
-    margin-left: 387px;
-    margin-top: 74px;
     display: flex;
     align-items: center;
 }
@@ -41,22 +43,25 @@
 
 .email_text {
     width: 100%;
+    max-width: 421px;
+    height: 68px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
     color: #39425d;
-    margin-left: 14px;
+    padding-left: 14px;
+    margin-right: 24px;
 }
 
 .sub {
-    margin-top: 74px;
-    margin-left: 24px;
 }
 
 .text_button {
     display: flex;
     align-items: center;
+    max-width: 625px;
+    margin: 0 auto;
 }
 
 input {
@@ -83,10 +88,24 @@ input {
         rgba(255, 255, 255, 0) 360deg
     );
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 100px;
+    border-radius: 50%;
 }
 .social {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.btn {
+    background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+    border-radius: 10px;
+    border: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    color: #ffffff;
+    padding: 22px 50px;
 }

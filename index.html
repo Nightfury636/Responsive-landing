@@ -45,14 +45,18 @@
             <div class="stripe">
                 <img src="dist/img/images/stripe.svg" alt="stripe">
             </div>
-            <div class="menu_cta">
-                <a href="#" class="cta">
-                    <img src="dist/img/images/CTA.svg" alt="cta" class="cta_logo">
-                </a>
+            <form class="menu_cta">
+                <button type="submit" class="btn_find">
+                    Find out more
+                </button>
                 <a href="#" class="playdemo">
-                    <img src="dist/img/images/Play Demo.svg" alt="playdemo" class="playdemo_logo">
+                    <div class="demo_btn">
+                        <span class="demo_btn_play"></span>
+                    </div>
+
+                    <div class="text_playdemo">Play Demo</div>
                 </a>
-            </div>
+            </form>
         </div>
     </div>
     <section class="servis">
@@ -103,110 +107,141 @@
     <div class="destinations">
         <div class="servis_heading">Top Selling</div>
         <div class="servis_title">Top Destinations</div>
-        <div class="destinations_list">
-            <a href="#" class="destinations_item" style="background-image: url(dist/img/images/rome.png);">
-                <div class="destinations_content">
-                    <div class="destinations_name">
-                        <div>Rome, Italty</div>
-                        <div class="price">$5,42k</div>
+        <ul class="destinations_list">
+            <li class="destinations_item">
+                <a href="#" class="destinations_item_inner" style="background-image: url(dist/img/images/rome.png);">
+                    <div class="destinations_content">
+                        <div class="destinations_name">
+                            <div>Rome, Italty</div>
+                            <div class="price">$5,42k</div>
+                        </div>
+                        <div class="destinations_name">
+                            <img src="dist/img/images/navigation_dest.svg" class="nav_dest">
+                            <div class="dest_time">10 Days Trip</div>
+                        </div>
                     </div>
-                    <div class="destinations_name">
-                        <img src="dist/img/images/navigation_dest.svg" class="nav_dest">
-                        <div class="dest_time">10 Days Trip</div>
+                </a>
+            </li>
+            <li class="destinations_item">
+                <a href="#" class="destinations_item_inner" style="background-image: url(dist/img/images/london.png);">
+                    <div class="destinations_content">
+                        <div class="destinations_name">
+                            <div сlass="">London, UK</div>
+                            <div class="price">$4.2k</div>
+                        </div>
+                        <div class="destinations_name">
+                            <img src="dist/img/images/navigation_dest.svg" class="nav_dest">
+                            <div class="dest_time">12 Days Trip</div>
+                        </div>
                     </div>
-                </div>
-            </a>
-            <a href="#" class="destinations_item london" style="background-image: url(dist/img/images/london.png);">
-                <div class="destinations_content">
-                    <div class="destinations_name">
-                        <div сlass="">London, UK</div>
-                        <div class="price">$4.2k</div>
+                </a>
+            </li>
+            <li class="destinations_item">
+                <a href="#" class="destinations_item_inner" style="background-image: url(dist/img/images/europe.png);">
+                    <div class="destinations_content">
+                        <div class="destinations_name">
+                            <div>Full Europe</div>
+                            <div class="price">$15k</div>
+                        </div>
+                        <div class="destinations_name">
+                            <img src="dist/img/images/navigation_dest.svg" class="nav_dest">
+                            <div class="dest_time">28 Days Trip</div>
+                        </div>
                     </div>
-                    <div class="destinations_name">
-                        <img src="dist/img/images/navigation_dest.svg" class="nav_dest">
-                        <div class="dest_time">12 Days Trip</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- Start Next Trip Section -->
+
+    <div class="container two_column_container">
+        <div class="two_column_container_left">
+            <div class="servis_heading m-align_left">Easy and Fast</div>
+            <div class="servis_title m-align_left">Book your next trip
+                in 3 easy steps</div>
+            <ul class="list_container_left">
+                <li class="list_container_left_item">
+                    <img src="dist/img/images/logo_orange.svg">
+                    <div class="list_conteiner">
+                        <div class="list_header">Choose Destination </div>
+                        <div class="list_description">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Urna, tortor tempus. </div>
                     </div>
-                </div>
-            </a>
-            <a href="#" class="destinations_item" style="background-image: url(dist/img/images/europe.png);">
-                <div class="destinations_content">
-                    <div class="destinations_name">
-                        <div>Full Europe</div>
-                        <div class="price">$15k</div>
+                </li>
+                <li class="list_container_left_item">
+                    <img src="dist/img/images/logo_red.svg">
+                    <div class="list_conteiner">
+                        <div class="list_header">Make Payment </div>
+                        <div class="list_description">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Urna, tortor tempus. </div>
                     </div>
-                    <div class="destinations_name">
-                        <img src="dist/img/images/navigation_dest.svg" class="nav_dest">
-                        <div class="dest_time">28 Days Trip</div>
+                </li>
+                <li class="list_container_left_item">
+                    <img src="dist/img/images/logo_green.svg">
+                    <div class="list_conteiner">
+                        <div class="list_header">Reach Airport on Selected Date </div>
+                        <div class="list_description">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Urna, tortor tempus. </div>
                     </div>
-                </div>
-            </a>
+                </li>
+            </ul>
+        </div>
+        <div class="two_column_container_right">
+            <img src="dist/img/images/triptogrece.svg" class="">
         </div>
     </div>
-    <div class="conteiner_general">
-        <div class="main_header">Easy and Fast</div>
-        <div class="list_title">Book your next trip
-            in 3 easy steps</div>
-        <div class="list list_one">
-            <img src="dist/img/images/logo_orange.svg">
-            <div class="list_conteiner">
-                <div class="list_header">Choose Destination </div>
-                <div class="list_description">Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Urna, tortor tempus. </div>
-            </div>
+
+    <!-- End Next Trip Section -->
+
+    <div class="container two_column_container m-aifs">
+        <div class="two_column_container_left">
+            <div class="servis_heading m-align_left">Easy and Fast</div>
+            <div class="servis_title m-align_left">Book your next trip
+                in 3 easy steps</div>
         </div>
-        <div class="list list_two">
-            <img src="dist/img/images/logo_red.svg">
-            <div class="list_conteiner">
-                <div class="list_header">Make Payment </div>
-                <div class="list_description">Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Urna, tortor tempus. </div>
-            </div>
-        </div>
-        <div class="list list_three">
-            <img src="dist/img/images/logo_green.svg">
-            <div class="list_conteiner">
-                <div class="list_header">Reach Airport on Selected Date </div>
-                <div class="list_description">Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Urna, tortor tempus. </div>
-            </div>
-        </div>
-        <div>
-            <img src="dist/img/images/triptogrece.svg" class="image_greece">
-        </div>
-    </div>
-    <div class="testimonials_all">
-        <div class="testimonials_header">Testimonials</div>
-        <div class="testimonials_title">What people say <br>
-            about Us.</div>
-        <div>
-            <div class="testimonials_comments">
-                <div class="testimonials_img">
-                    <img src="dist/img/images/test_image.svg">
+        <div class="two_column_container_right">
+            <div class="testimonials_content">
+                <div class="testimonials_comments">
+                    <div class="testimonials_img">
+                        <img src="dist/img/images/test_image.svg">
+                    </div>
+                    <div class="background_comment">
+                        <div class="comment_mike">“On the Windows talking painted pasture yet its express parties use.
+                            Sure
+                            last upon he same as
+                            knew next. Of believed or diverted no.”</div>
+                        <div class="name_comment">Mike taylor</div>
+                        <div class="location_comment">Lahore, Pakistan</div>
+                    </div>
                 </div>
-                <div class="background_comment">
+                <div class="background_comment_chris">
                     <div class="comment_mike">“On the Windows talking painted pasture yet its express parties use. Sure
-                        last upon he same as
-                        knew next. Of believed or diverted no.”</div>
-                    <div class="name_comment">Mike taylor</div>
-                    <div class="location_comment">Lahore, Pakistan</div>
+                        last
+                        upon he same as knew
+                        next. Of believed or diverted no.”</div>
+                    <div class="name_comment">Chris Thomas</div>
+                    <div class="location_comment">CEO of Red Button</div>
+
                 </div>
             </div>
         </div>
     </div>
     <div class="logo_images">
-        <a href="#" class="axon">
+        <a href="#" class="axon logo_pics">
             <img src="dist/img/images/axon.svg">
         </a>
-        <a href="#">
+        <a href="#" class="logo_pics">
             <img src="dist/img/images/jetstar.svg">
         </a>
-        <a href="#" class="expedia">
+        <a href="#" class="expedia logo_pics">
             <img src="dist/img/images/expedia.svg">
         </a>
-        <a href="#" class="qantas">
+        <a href="#" class="qantas logo_pics">
             <img src="dist/img/images/qantas.svg">
         </a>
-        <a href="#">
+        <a href="#" class="logo_pics">
             <img src="dist/img/images/alitalia.svg">
         </a>
     </div>
@@ -214,21 +249,19 @@
         <img src="dist/img/images/telegram.svg" class="telegram_logo">
         <div class="subscribe_text">Subscribe to get information, latest news and other
             interesting offers about Cobham</div>
-        <div class="text_button">
-            <div class="background_email">
-                <img src="dist/img/images/mail.svg" alt="#" class="email_logo">
-                <input placeholder="Your email" class="email_text"></input>
-            </div>
-            <a href="#">
-                <img src="dist/img/images/sub.svg" alt="#" class="sub">
-            </a>
-        </div>
+        <form class="text_button">
+            <input placeholder="Your email" class="email_text"></input>
+            <button type="submit" class="btn">
+                Subscribe
+            </button>
+        </form>
     </div>
     <footer>
         <div class="all_nav">
             <div>
                 <div class="company_desc_header">Jadoo.</div>
-                <div class="company_desc_title">Book your trip in minute, get full <br> Control for much longer.</div>
+                <div class="company_desc_title">Book your trip in minute, get full <br> Control for much longer.
+                </div>
             </div>
             <div class="nav_item_company">
                 <a href="#">

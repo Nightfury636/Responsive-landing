@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    max-width: 1115px;
+    margin: 0 auto;
+}
+
+.m-aifs {
+    align-items: flex-start !important;
+}
+
+.two_column_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .two_column_container_left {
+        flex: 0 0 49%;
+    }
+
+    .two_column_container_right {
+        flex: 0 0 49%;
+    }
+}
+.list_container_left_item {
+    display: flex;
+    max-width: 450px;
+    &:not(:last-child) {
+        margin-bottom: 48px;
+    }
+}
