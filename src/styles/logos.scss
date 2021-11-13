@@ -6,6 +6,28 @@
     justify-content: space-between;
     margin-left: 186px;
     margin-top: 96px;
+    @media (max-width: 1300px) {
+        & {
+            width: 1000px;
+            margin-left: 130px;
+        }
+    }
+    @media (max-width: 1150px) {
+        & {
+            width: 900px;
+            margin-left: 75px;
+        }
+    }
+    @media (max-width: 1000px) {
+        & {
+            margin-left: 0px;
+        }
+    }
+    @media (max-width: 920px) {
+        & {
+            display: none;
+        }
+    }
 }
 
 .logo_pics {

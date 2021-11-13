@@ -5,6 +5,12 @@
 .servis {
     margin-top: 97px;
     margin-left: 154px;
+    @media (max-width: 1275px) {
+        & {
+            margin-left: 0px;
+            margin-top: 40px;
+        }
+    }
 }
 
 .servis_heading {
@@ -15,6 +21,18 @@
     line-height: 27px;
     text-align: center;
     color: #5e6282;
+    @media (max-width: 1100px) {
+        & {
+            font-size: 13px;
+            line-height: 15px;
+        }
+    }
+    @media (max-width: 600px) {
+        & {
+            font-size: 10px;
+            line-height: 5px;
+        }
+    }
 }
 
 .servis_title {
@@ -26,6 +44,18 @@
     text-align: center;
     text-transform: capitalize;
     color: #14183e;
+    @media (max-width: 1100px) {
+        & {
+            font-size: 30px;
+            line-height: 45px;
+        }
+    }
+    @media (max-width: 600px) {
+        & {
+            font-size: 20px;
+            line-height: 35px;
+        }
+    }
 }
 
 .m-align_left {
@@ -39,6 +69,9 @@
     left: 1229px;
     top: 966px;
     margin-left: 254px;
+    @media (max-width: 1600px) {
+        display: none;
+    }
 }
 
 .servis_list {
@@ -47,6 +80,17 @@
     justify-content: space-between;
     max-width: 1090px;
     margin: 0 auto 0;
+    @media (max-width: 1100px) {
+        & {
+            justify-content: center;
+        }
+    }
+    @media (max-width: 730px) {
+        & {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
 }
 
 .servis_category {

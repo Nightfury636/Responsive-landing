@@ -4,6 +4,28 @@
     background-image: url("../img/images/Decore.svg");
     background-position: top right;
     background-repeat: no-repeat;
+    @media (max-width: 1265px) {
+        & {
+            background-size: 700px;
+        }
+    }
+    @media (max-width: 1150px) {
+        & {
+            background-size: 600px;
+        }
+    }
+    @media (max-width: 920px) {
+        & {
+            background-size: 400px;
+            height: 500px;
+        }
+    }
+    @media (max-width: 600px) {
+        & {
+            background-size: 300px;
+            height: 390px;
+        }
+    }
 }
 
 .girl {
@@ -15,6 +37,35 @@
     position: relative;
     top: 105px;
     right: 100px;
+
+    @media (max-width: 1265px) {
+        & {
+            background-size: 700px;
+            top: 155px;
+            right: 20px;
+        }
+    }
+    @media (max-width: 1150px) {
+        & {
+            background-size: 500px;
+            top: 240px;
+            right: 5px;
+        }
+    }
+    @media (max-width: 920px) {
+        & {
+            background-size: 300px;
+            top: 205px;
+            right: 25px;
+        }
+    }
+    @media (max-width: 600px) {
+        & {
+            background-size: 200px;
+            top: 195px;
+            right: 25px;
+        }
+    }
 }
 
 .desc {
@@ -23,6 +74,27 @@
     position: absolute;
     left: 150px;
     top: 271px;
+
+    @media (max-width: 1150px) {
+        & {
+            width: 340px;
+            height: 415px;
+        }
+    }
+    @media (max-width: 920px) {
+        & {
+            width: 285px;
+            height: 185px;
+            left: 80px;
+        }
+    }
+    @media (max-width: 600px) {
+        & {
+            width: 170px;
+            height: 90px;
+            left: 30px;
+        }
+    }
 }
 
 .desc_heading {
@@ -32,6 +104,25 @@
     line-height: 30px;
     text-transform: uppercase;
     color: #df6951;
+
+    @media (max-width: 1150px) {
+        & {
+            font-size: 15px;
+            line-height: 20px;
+        }
+    }
+    @media (max-width: 920px) {
+        & {
+            font-size: 10px;
+            line-height: 10px;
+        }
+    }
+    @media (max-width: 600px) {
+        & {
+            font-size: 5px;
+            line-height: 5px;
+        }
+    }
 }
 
 .desc_title {
@@ -43,6 +134,24 @@
     letter-spacing: -0.04em;
     color: #181e4b;
     z-index: 2;
+    @media (max-width: 1150px) {
+        & {
+            font-size: 50px;
+            line-height: 50px;
+        }
+    }
+    @media (max-width: 920px) {
+        & {
+            font-size: 25px;
+            line-height: 25px;
+        }
+    }
+    @media (max-width: 600px) {
+        & {
+            font-size: 15px;
+            line-height: 15px;
+        }
+    }
 }
 
 .desc_description {
@@ -52,6 +161,19 @@
     line-height: 30px;
     color: #5e6282;
     padding-bottom: 34px;
+    @media (max-width: 920px) {
+        & {
+            padding-bottom: 0px;
+            line-height: 20px;
+            font-size: 11px;
+        }
+    }
+    @media (max-width: 600px) {
+        & {
+            line-height: 10px;
+            font-size: 5px;
+        }
+    }
 }
 
 div.stripe {
@@ -63,6 +185,11 @@ div.stripe {
     top: 100px;
     transform: translate(-50%, 0);
     z-index: 1;
+    @media (max-width: 1150px) {
+        & {
+            display: none;
+        }
+    }
 }
 
 .menu_cta {
@@ -81,6 +208,14 @@ div.stripe {
     background: #f1a501;
     box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
     border-radius: 10px;
+    @media (max-width: 600px) {
+        & {
+            max-width: 65px;
+            height: 25px;
+            font-size: 8px;
+            line-height: 10px;
+        }
+    }
 }
 
 .playdemo {
@@ -88,6 +223,11 @@ div.stripe {
     align-items: center;
     justify-content: center;
     padding-left: 44px;
+    @media (max-width: 920px) {
+        & {
+            display: none;
+        }
+    }
 }
 
 .text_playdemo {
