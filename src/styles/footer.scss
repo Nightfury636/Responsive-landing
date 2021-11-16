@@ -12,7 +12,6 @@ footer {
     }
     @media (max-width: 950px) {
         margin-top: 50px;
-        margin-left: 2px;
     }
 }
 .all_nav {
@@ -77,6 +76,10 @@ h2 {
         margin-right: 10px;
         margin-left: 10px;
     }
+    @media (max-width: 770px) {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
 
 .nav_item_contact {
@@ -96,6 +99,10 @@ h2 {
     }
     @media (max-width: 950px) {
         margin-left: 10px;
+    }
+    @media (max-width: 770px) {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
 
@@ -132,4 +139,8 @@ h2 {
     @media (max-width: 770px) {
         margin-left: 15px;
     }
+}
+
+.nav_flex {
+    display: flex;
 }
