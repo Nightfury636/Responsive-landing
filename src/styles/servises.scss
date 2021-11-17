@@ -4,7 +4,6 @@
 
 .servis {
     margin-top: 97px;
-    margin-left: 154px;
     @media (max-width: 1275px) {
         & {
             margin-left: 0px;
@@ -79,7 +78,6 @@
     align-items: center;
     justify-content: space-between;
     max-width: 1090px;
-    margin: 0 auto 0;
     @media (max-width: 1100px) {
         & {
             justify-content: center;
@@ -96,9 +94,15 @@
 .servis_category {
     max-width: 190px;
     text-align: center;
+    margin: 20px;
+    @media (max-width: 950px) {
+        & {
+            margin: 0px;
+        }
+    }
     @media (max-width: 730px) {
         & {
-            padding: 20px 10px 20px 10px;
+            padding-top: 40px;
         }
     }
 }
@@ -112,6 +116,12 @@
     color: #1e1d4c;
     text-align: center;
     margin-top: 30px;
+    @media (max-width: 600px) {
+        & {
+            font-size: 15px;
+            line-height: 20px;
+        }
+    }
 }
 
 .description_category {
@@ -123,4 +133,17 @@
     text-align: center;
     color: #5e6282;
     margin-top: 15px;
+    @media (max-width: 600px) {
+        & {
+            font-size: 13px;
+            margin-top: 10px;
+            line-height: 20px;
+        }
+    }
+}
+
+.servis_list_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
